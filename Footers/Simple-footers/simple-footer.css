@@ -1,0 +1,51 @@
+.konténer{
+  width: 500px;
+  height: 500px;
+  background-color: red;
+  position: relative;
+}
+.dobozok{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: absolute;
+  font-family: arial, bold;
+}
+#fej{
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  height: 20%;
+}
+#lábléc{
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  background-color: yellow;
+  bottom: 0;
+  height: 10%;
+}
+#szöveg{
+ background-color: green;
+  width: 70%;
+  top: 100px;
+  height: 70%;
+  left: 0;
+  font-size: 1.5rem;
+}
+#bemutató{
+background-color: lightgray;
+  top: 100px;
+  right: 0;
+  height: 70%;
+  width: 30%;
+font-size: 1.5rem;
+}
+img:hover{
+  opacity: 0.8
+}
+img{
+  float: left;
+  margin: 5px;
+  border-radius: 20px;
+  width: 30%
